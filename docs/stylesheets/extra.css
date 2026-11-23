@@ -1,0 +1,44 @@
+/* Tema chiaro (predefinito): sfondo grigio chiaro, contenuto su "foglio" bianco, accento arancio del sito */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #c2410c;
+  --md-primary-fg-color--light: #ea580c;
+  --md-primary-fg-color--dark: #9a3412;
+  --md-accent-fg-color: #ea580c;
+  --md-default-bg-color: #f1f2f4;
+  --md-default-fg-color: rgba(17, 24, 39, .92);
+  --md-typeset-a-color: #c2410c;
+}
+[data-md-color-scheme="default"] .md-header { background: #ffffff; color: #1f2937; box-shadow: 0 1px 0 #e3e5e8; }
+[data-md-color-scheme="default"] .md-search__input { background: #f1f2f4; }
+[data-md-color-scheme="default"] .md-content__inner {
+  background: #ffffff; border-radius: 14px; padding: 1.6rem 2rem 2rem; margin-top: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+}
+@media (max-width: 44.9375em) {
+  [data-md-color-scheme="default"] .md-content__inner { border-radius: 0; padding: 1rem 1rem 1.5rem; margin: 0; }
+}
+[data-md-color-scheme="slate"] { --md-primary-fg-color: #1c1c1e; --md-accent-fg-color: #f97316; --md-typeset-a-color: #fb923c; }
+
+/* Testo più grande e arioso, per lettori non tecnici */
+.md-typeset { font-size: .9rem; line-height: 1.7; }
+.md-typeset ol li, .md-typeset ul li { margin-bottom: .45em; }
+.md-typeset code { font-size: .9em; }
+
+/* Riga con tempo, verifica e difficoltà */
+.md-typeset .scheda-modulo {
+  display: inline-block; font-size: .78rem; color: #4b5563; background: #fff7ed;
+  border: 1px solid #fed7aa; border-radius: 999px; padding: .25rem .9rem;
+}
+[data-md-color-scheme="slate"] .md-typeset .scheda-modulo { background: #2a1a10; border-color: #7c2d12; color: #fdba74; }
+
+/* Segnaposto per le foto di Fabio (da sostituire con <figure>) */
+.md-typeset .foto-segnaposto {
+  border: 2px dashed #f59e0b; background: #fffbeb; color: #78350f; border-radius: 12px;
+  padding: 1.6rem 1rem; margin: 1rem 0; text-align: center; font-size: .78rem;
+}
+.md-typeset .foto-segnaposto::before { content: "📷"; display: block; font-size: 1.8rem; margin-bottom: .3rem; }
+[data-md-color-scheme="slate"] .md-typeset .foto-segnaposto { background: #2a2110; color: #fcd34d; border-color: #b45309; }
+
+/* Foto vere: bordo leggero, larghezza contenuta per gli screenshot del telefono */
+.md-typeset figure.schermata img { border-radius: 12px; border: 1px solid #e5e7eb; max-width: 360px; }
+.md-typeset figure.schermata figcaption { font-size: .75rem; color: #6b7280; }

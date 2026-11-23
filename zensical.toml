@@ -1,0 +1,40 @@
+[project]
+site_name = "Parental control in famiglia"
+site_description = "La guida pratica, passo per passo, per genitori: rete di casa, smartphone, SIM, console."
+site_author = "Fabio Muzzi"
+site_url = "https://fabiomuzzi.github.io/corso-parental-control/"
+copyright = "© 2026 Fabio Muzzi · <a href='https://www.fabiomuzzi.com/'>fabiomuzzi.com</a>"
+nav = [
+  { "Inizia qui" = "index.md" },
+  { "0. Prima delle impostazioni" = "prima-delle-impostazioni.md" },
+  { "2. La rete di casa (filtri DNS)" = "rete-di-casa-filtri-dns.md" },
+  { "5. La SIM" = "sim-operatore.md" },
+]
+extra_css = ["stylesheets/extra.css"]
+
+[project.theme]
+language = "it"
+features = ["navigation.footer","navigation.instant","navigation.path","navigation.top","navigation.tracking","search.highlight","toc.follow","content.tooltips"]
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Passa al tema scuro"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Passa al tema chiaro"
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.details = {}
+pymdownx.superfences = {}
