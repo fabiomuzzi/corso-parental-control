@@ -4,13 +4,13 @@ description: "Come impostare il parental control in casa: filtri DNS sulla rete,
 ---
 
 <header class="fm-hero" markdown="0">
-  <img class="fm-hero__foto" src="img/fabio-muzzi.webp" width="160" height="160" alt="Fabio Muzzi">
+  <figure class="fm-hero__media"><img src="img/header-guida.webp" width="1400" height="700" alt="Una mamma e suo figlio sul divano guardano insieme lo smartphone; sullo sfondo il modem Wi-Fi di casa"></figure>
   <div class="fm-hero__testo">
     <p class="fm-hero__occhiello">Una guida pratica di Fabio Muzzi</p>
     <h1 class="fm-hero__titolo">Parental control in famiglia</h1>
     <p class="fm-hero__descr">Sono Fabio, papà e professionista del digitale. In questa guida ti accompagno, un passo alla volta, a proteggere la rete di casa, gli smartphone e le SIM dei tuoi figli. Non serve essere esperti.</p>
     <p class="fm-hero__chips"><span>9 moduli</span><span>15-30 minuti l'uno</span><span>Gratuita, senza pubblicità</span></p>
-    <p class="fm-hero__azioni"><a class="fm-btn fm-btn--pieno" href="prima-delle-impostazioni/">Inizia dal modulo 0</a><a class="fm-btn" href="#il-percorso">Vedi il percorso</a></p>
+    <p class="fm-hero__azioni"><a class="fm-btn fm-btn--pieno" href="prima-delle-impostazioni/">Inizia dal modulo 0</a><a class="fm-btn" href="#il-percorso">Vedi il percorso</a><a class="fm-btn fm-btn--pdf fm-btn--off" href="#" aria-disabled="true" title="Il PDF arriverà quando tutti i moduli saranno pronti">Scarica il corso in PDF <small>(in arrivo)</small></a></p>
   </div>
 </header>
 
