@@ -1,6 +1,6 @@
 # Modulo 5. La SIM: il parental control gratuito dell'operatore
 
-<p class="scheda-modulo">Tempo: circa 10 minuti, più l'eventuale telefonata all'operatore. Ultima verifica: novembre 2026. Difficoltà: facile.</p>
+<p class="scheda-modulo">Modulo 5 di 8 · Tempo: circa 10 minuti, più l'eventuale telefonata all'operatore. Ultima verifica: novembre 2026. Difficoltà: facile.</p>
 
 !!! abstract "In breve"
     - Dal **21 novembre 2023** gli operatori italiani devono offrire **gratis** un parental control (delibera AGCOM 9/23/CONS).

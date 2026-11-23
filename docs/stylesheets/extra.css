@@ -1,51 +1,100 @@
-/* Tema chiaro (predefinito): sfondo grigio chiaro, contenuto su "foglio" bianco, accento arancio del sito */
+/* Guida parental control - layout "Percorso a tappe" (proposta C) con testo in Atkinson Hyperlegible Next.
+   Font caricati dal sito stesso (docs/fonts), niente Google Fonts. */
+@font-face { font-family: "Atkinson Next"; src: url("../fonts/atkinson-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Atkinson Next"; src: url("../fonts/atkinson-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Nunito"; src: url("../fonts/nunito-800.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+
+body, input, .md-typeset { font-family: "Atkinson Next", system-ui, -apple-system, "Segoe UI", sans-serif; }
+code, kbd, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+
+/* ---------- Colori: tema chiaro (predefinito) ---------- */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #c2410c;
-  --md-primary-fg-color--light: #ea580c;
-  --md-primary-fg-color--dark: #9a3412;
-  --md-accent-fg-color: #ea580c;
-  --md-default-bg-color: #f1f2f4;
-  --md-default-fg-color: rgba(17, 24, 39, .92);
-  --md-typeset-a-color: #c2410c;
+  --md-primary-fg-color: #c2410c; --md-primary-fg-color--light: #ea580c; --md-primary-fg-color--dark: #9a3412;
+  --md-accent-fg-color: #0f766e; --md-typeset-a-color: #0f766e;
+  --md-default-bg-color: #eef1f5; --md-default-fg-color: #1e293b;
+  --fm-card: #ffffff; --fm-card-border: #e2e8f0; --fm-title: #0f172a; --fm-muted: #475569;
+  --fm-badge-bg: #fff7ed; --fm-badge-border: #fdba74; --fm-path: #fed7aa; --fm-dot-off: #cbd5e1;
 }
-[data-md-color-scheme="default"] .md-header { background: #ffffff; color: #1f2937; box-shadow: 0 1px 0 #e3e5e8; }
-[data-md-color-scheme="default"] .md-search__input { background: #f1f2f4; }
-[data-md-color-scheme="default"] .md-content__inner {
-  background: #ffffff; border-radius: 14px; padding: 1.6rem 2rem 2rem; margin-top: 1.2rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+[data-md-color-scheme="default"] .md-header { background: #fff; color: #1e293b; box-shadow: 0 1px 0 #dde3ea; }
+[data-md-color-scheme="default"] .md-search__input { background: #eef1f5; }
+
+/* ---------- Colori: tema scuro (facoltativo) ---------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1c1c1e; --md-accent-fg-color: #2dd4bf; --md-typeset-a-color: #5eead4;
+  --fm-card: #1f2430; --fm-card-border: #2e3442; --fm-title: #f1f5f9; --fm-muted: #94a3b8;
+  --fm-badge-bg: #2a1a10; --fm-badge-border: #9a3412; --fm-path: #7c2d12; --fm-dot-off: #475569;
+}
+
+/* ---------- Testo ---------- */
+.md-typeset { font-size: .92rem; line-height: 1.65; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3 { font-family: "Nunito", "Atkinson Next", sans-serif; font-weight: 800; color: var(--fm-title); }
+.md-typeset h1 { font-size: 2.05em; line-height: 1.2; }
+.md-typeset h2 { font-size: 1.4em; margin-top: 2em; }
+.md-typeset h3 { font-size: 1.15em; }
+.md-typeset ul li { margin-bottom: .4em; }
+.md-content__inner { padding-bottom: 2rem; }
+
+/* Riga "Modulo N di 9 · tempo · verifica" */
+.md-typeset .scheda-modulo {
+  display: inline-block; background: var(--fm-card); border: 1px solid var(--fm-card-border); border-radius: 999px;
+  padding: .35rem 1rem; font-size: .8em; font-weight: 700; color: var(--fm-muted);
+}
+
+/* ---------- Ogni passo numerato e una scheda ---------- */
+.md-typeset ol { counter-reset: passo; list-style: none; padding-left: 0; }
+[dir=ltr] .md-typeset ol { margin-left: 0; }
+[dir=ltr] .md-typeset ol > li { margin-left: 0; }
+.md-typeset ol > li {
+  counter-increment: passo; position: relative; background: var(--fm-card); border: 1px solid var(--fm-card-border);
+  border-radius: 18px; padding: 1rem 1.2rem 1rem 4rem; margin: 0 0 .9rem 0; box-shadow: 0 1px 2px rgba(15,23,42,.06);
+}
+.md-typeset ol > li::before {
+  content: counter(passo); position: absolute; left: 1rem; top: 1rem; width: 2.1rem; height: 2.1rem; border-radius: 12px;
+  background: var(--fm-badge-bg); color: #c2410c; border: 2px solid var(--fm-badge-border); font-family: "Nunito", sans-serif;
+  font-weight: 800; display: grid; place-items: center;
 }
 @media (max-width: 44.9375em) {
-  [data-md-color-scheme="default"] .md-content__inner { border-radius: 0; padding: 1rem 1rem 1.5rem; margin: 0; }
+  .md-typeset ol > li { padding: .9rem .9rem .9rem 3.3rem; }
+  .md-typeset ol > li::before { left: .7rem; top: .9rem; width: 1.9rem; height: 1.9rem; }
 }
-[data-md-color-scheme="slate"] { --md-primary-fg-color: #1c1c1e; --md-accent-fg-color: #f97316; --md-typeset-a-color: #fb923c; }
 
-/* Testo più grande e arioso, per lettori non tecnici */
-.md-typeset { font-size: .9rem; line-height: 1.7; }
-.md-typeset ol li, .md-typeset ul li { margin-bottom: .45em; }
-.md-typeset code { font-size: .9em; }
+/* ---------- Riquadri ---------- */
+.md-typeset .admonition, .md-typeset details { border-radius: 18px; border: none; box-shadow: 0 1px 2px rgba(15,23,42,.06); font-size: .9em; }
+[data-md-color-scheme="default"] .md-typeset .admonition.abstract { background: #ecfeff; }
+[data-md-color-scheme="default"] .md-typeset .admonition.success { background: #f0fdf4; }
+.md-typeset table:not([class]) { border-radius: 14px; overflow: hidden; background: var(--fm-card); }
 
-/* Riga con tempo, verifica e difficoltà */
-.md-typeset .scheda-modulo {
-  display: inline-block; font-size: .78rem; color: #4b5563; background: #fff7ed;
-  border: 1px solid #fed7aa; border-radius: 999px; padding: .25rem .9rem;
-}
-[data-md-color-scheme="slate"] .md-typeset .scheda-modulo { background: #2a1a10; border-color: #7c2d12; color: #fdba74; }
-
-/* Segnaposto per le foto di Fabio (da sostituire con <figure>) */
+/* ---------- Segnaposto per le foto (da sostituire con <figure class="schermata">) ---------- */
 .md-typeset .foto-segnaposto {
-  border: 2px dashed #f59e0b; background: #fffbeb; color: #78350f; border-radius: 12px;
-  padding: 1.6rem 1rem; margin: 1rem 0; text-align: center; font-size: .78rem;
+  border: 2px dashed #f59e0b; background: #fffbeb; color: #78350f; border-radius: 14px;
+  padding: 1.6rem 1rem; margin: 1rem 0; text-align: center; font-size: .8em;
 }
 .md-typeset .foto-segnaposto::before { content: "📷"; display: block; font-size: 1.8rem; margin-bottom: .3rem; }
 [data-md-color-scheme="slate"] .md-typeset .foto-segnaposto { background: #2a2110; color: #fcd34d; border-color: #b45309; }
+.md-typeset figure.schermata img { border-radius: 12px; border: 1px solid var(--fm-card-border); max-width: 360px; }
+.md-typeset figure.schermata figcaption { font-size: .75rem; color: var(--fm-muted); }
 
-/* Foto vere: bordo leggero, larghezza contenuta per gli screenshot del telefono */
-.md-typeset figure.schermata img { border-radius: 12px; border: 1px solid #e5e7eb; max-width: 360px; }
-.md-typeset figure.schermata figcaption { font-size: .75rem; color: #6b7280; }
+/* ---------- Pagina iniziale: i moduli come tappe di una strada ---------- */
+.md-typeset .moduli { display: grid; grid-template-columns: 1fr; gap: .8rem; position: relative; padding-left: 1.4rem; margin: 1.2rem 0 2rem; }
+.md-typeset .moduli::before { content: ""; position: absolute; left: .45rem; top: .5rem; bottom: .5rem; width: 4px; border-radius: 2px; background: var(--fm-path); }
+.md-typeset a.modulo-card {
+  display: flex; flex-direction: column; gap: .25rem; padding: 1.1rem 1.2rem; border-radius: 18px; position: relative;
+  text-decoration: none; color: inherit; background: var(--fm-card); border: 1px solid var(--fm-card-border); transition: transform .15s, box-shadow .15s;
+}
+.md-typeset a.modulo-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.08); }
+.md-typeset a.modulo-card::before { content: ""; position: absolute; left: -1.25rem; top: 1.3rem; width: 14px; height: 14px; border-radius: 50%; background: #c2410c; border: 3px solid var(--md-default-bg-color); }
+.md-typeset a.modulo-card .num { font-size: .75em; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #c2410c; }
+.md-typeset a.modulo-card strong { font-family: "Nunito", sans-serif; font-weight: 800; font-size: 1.1em; line-height: 1.3; color: var(--fm-title); }
+.md-typeset a.modulo-card .desc { font-size: .9em; color: var(--fm-muted); }
+.md-typeset a.modulo-card .meta { font-size: .78em; margin-top: .4rem; font-style: normal; font-weight: 700; color: var(--fm-muted); }
+.md-typeset a.modulo-card.prossimo { opacity: .55; pointer-events: none; }
+.md-typeset a.modulo-card.prossimo::before { background: var(--fm-dot-off); }
 
-/* Verifica di fine modulo */
+/* ---------- Verifica di fine modulo ---------- */
 .md-typeset .task-list-item { margin-bottom: .55em; }
-.md-typeset .task-list-control .task-list-indicator::before { background-color: #d1d5db; }
 .md-typeset [type=checkbox]:checked + .task-list-indicator::before { background-color: #16a34a; }
-.md-typeset details.question { border-color: #c2410c; }
-.md-typeset details.question > summary { font-weight: 600; }
+.md-typeset details.question > summary { font-weight: 700; }
+
+/* Avanti / Indietro in fondo alla pagina: piu grandi e visibili */
+.md-footer__link { padding-top: 1rem; padding-bottom: 1rem; }
+.md-footer__title { font-family: "Nunito", sans-serif; font-weight: 800; }

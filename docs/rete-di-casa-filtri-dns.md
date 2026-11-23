@@ -1,6 +1,6 @@
 # Modulo 2. La rete di casa: i filtri DNS
 
-<p class="scheda-modulo">Tempo: circa 30 minuti. Ultima verifica: novembre 2026 (iOS 27, Android 17). Difficoltà: media, ma ti accompagno passo per passo.</p>
+<p class="scheda-modulo">Modulo 2 di 8 · Tempo: circa 30 minuti. Ultima verifica: novembre 2026 (iOS 27, Android 17). Difficoltà: media, ma ti accompagno passo per passo.</p>
 
 !!! abstract "In breve"
     - Il DNS è la "rubrica" di internet: quando scrivi il nome di un sito, il DNS trova l'indirizzo a cui collegarsi. Un DNS con **filtro famiglia** semplicemente non trova l'indirizzo dei siti per adulti e di quelli pericolosi.

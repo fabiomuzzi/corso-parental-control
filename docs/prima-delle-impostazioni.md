@@ -1,6 +1,6 @@
 # Modulo 0. Prima delle impostazioni: il patto in famiglia
 
-<p class="scheda-modulo">Tempo: circa 20 minuti, meglio se tutti insieme. Ultima verifica: novembre 2026. Difficoltà: nessuna, serve solo un foglio.</p>
+<p class="scheda-modulo">Modulo 0 di 8 · Tempo: circa 20 minuti, meglio se tutti insieme. Ultima verifica: novembre 2026. Difficoltà: nessuna, serve solo un foglio.</p>
 
 !!! abstract "In breve"
     - Il parental control funziona bene sui **contenuti** (siti per adulti, app non adatte all'età, acquisti) e poco sulle **persone** (chi scrive a nostro figlio, cosa gli chiede).

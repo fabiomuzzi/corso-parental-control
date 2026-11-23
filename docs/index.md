@@ -20,17 +20,17 @@ Le guide ufficiali esistono, e le trovi linkate in ogni modulo. Il problema è c
 
 ## Il percorso
 
-| Modulo | Di cosa parla | Tempo | Stato |
-|---|---|---|---|
-| 0. Prima delle impostazioni | Il patto in famiglia e cosa i filtri non fanno | 20 min | Disponibile |
-| 1. La mappa di casa | Chi usa quale dispositivo, con quale account | 15 min | In arrivo |
-| 2. La rete di casa | Filtri DNS sul router o sui dispositivi | 30 min | Disponibile |
-| 3. iPhone e iPad | Tempo di utilizzo e In famiglia | 30 min | In arrivo |
-| 4. Android | Google Family Link | 30 min | In arrivo |
-| 5. La SIM | Il parental control gratuito dell'operatore | 10 min | Disponibile |
-| 6. Console e videogiochi | Switch, PlayStation, Xbox, PC | 20 min | In arrivo |
-| 7. Social e YouTube | Gli account per adolescenti | 20 min | In arrivo |
-| 8. Quando rivedere tutto | Cosa sfugge ai filtri e come cambiano le regole con l'età | 15 min | In arrivo |
+<div class="moduli">
+<a class="modulo-card" href="prima-delle-impostazioni/"><span class="num">Modulo 0</span><strong>Prima delle impostazioni</strong><span class="desc">Il patto in famiglia e cosa i filtri non fanno</span><em class="meta">20 minuti · Disponibile</em></a>
+<a class="modulo-card prossimo" href="#"><span class="num">Modulo 1</span><strong>La mappa di casa</strong><span class="desc">Chi usa quale dispositivo, con quale account</span><em class="meta">15 minuti · In arrivo</em></a>
+<a class="modulo-card" href="rete-di-casa-filtri-dns/"><span class="num">Modulo 2</span><strong>La rete di casa</strong><span class="desc">Filtri DNS sul modem o sui dispositivi</span><em class="meta">30 minuti · Disponibile</em></a>
+<a class="modulo-card prossimo" href="#"><span class="num">Modulo 3</span><strong>iPhone e iPad</strong><span class="desc">Tempo di utilizzo e In famiglia</span><em class="meta">30 minuti · In arrivo</em></a>
+<a class="modulo-card prossimo" href="#"><span class="num">Modulo 4</span><strong>Android</strong><span class="desc">Google Family Link</span><em class="meta">30 minuti · In arrivo</em></a>
+<a class="modulo-card" href="sim-operatore/"><span class="num">Modulo 5</span><strong>La SIM</strong><span class="desc">Il parental control gratuito dell'operatore</span><em class="meta">10 minuti · Disponibile</em></a>
+<a class="modulo-card prossimo" href="#"><span class="num">Modulo 6</span><strong>Console e videogiochi</strong><span class="desc">Switch, PlayStation, Xbox, PC</span><em class="meta">20 minuti · In arrivo</em></a>
+<a class="modulo-card prossimo" href="#"><span class="num">Modulo 7</span><strong>Social e YouTube</strong><span class="desc">Gli account per adolescenti</span><em class="meta">20 minuti · In arrivo</em></a>
+<a class="modulo-card prossimo" href="#"><span class="num">Modulo 8</span><strong>Quando rivedere tutto</strong><span class="desc">Cosa sfugge ai filtri e come cambiano le regole con l'età</span><em class="meta">15 minuti · In arrivo</em></a>
+</div>
 
 Non serve farli tutti, e non serve farli in un giorno. Se hai poco tempo, il minimo che consiglio è: **modulo 0, modulo 5 e il modulo del telefono di tuo figlio**.
 
