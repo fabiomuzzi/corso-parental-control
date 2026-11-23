@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Parental control in famiglia - header</title>
+<!-- Versione da incorporare dell'header della guida.
+     Uso in un iframe:
+     <iframe src="https://fabiomuzzi.github.io/corso-parental-control/embed/header.html"
+             title="Parental control in famiglia: la guida pratica" loading="lazy"
+             style="width:100%;height:330px;border:0;"></iframe>
+     Aggiungi ?tema=scuro all'indirizzo per la versione scura. -->
+<style>
+@font-face { font-family: "Atkinson Next"; src: url("../fonts/atkinson-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Atkinson Next"; src: url("../fonts/atkinson-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Nunito"; src: url("../fonts/nunito-800.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+html, body { margin: 0; background: transparent; }
+.fmpc-hero {
+  --card: #ffffff; --border: #e2e8f0; --title: #0f172a; --muted: #475569; --chip: #eef1f5;
+  box-sizing: border-box; display: flex; gap: 24px; align-items: center; font-family: "Atkinson Next", system-ui, sans-serif;
+  background: var(--card); border: 1px solid var(--border); border-radius: 24px; padding: 28px; color: var(--title);
+  background-image: radial-gradient(circle at 100% 0, rgba(234,88,12,.10), transparent 45%); line-height: 1.55;
+}
+.fmpc-hero.scuro { --card: #1f2430; --border: #2e3442; --title: #f1f5f9; --muted: #94a3b8; --chip: #2a303c; }
+.fmpc-hero img { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; flex: none; border: 4px solid #fff; box-shadow: 0 0 0 3px #fdba74; }
+.fmpc-hero p { margin: 0; }
+.fmpc-occhiello { font-size: 13px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: #c2410c; }
+.fmpc-titolo { font-family: "Nunito", "Atkinson Next", sans-serif; font-weight: 800; font-size: 34px; line-height: 1.15; margin: 4px 0 8px; }
+.fmpc-descr { font-size: 17px; color: var(--muted); margin-bottom: 12px !important; }
+.fmpc-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px !important; }
+.fmpc-chips span { font-size: 13px; font-weight: 700; background: var(--chip); border-radius: 999px; padding: 4px 12px; color: var(--muted); }
+.fmpc-azioni { display: flex; flex-wrap: wrap; gap: 10px; }
+.fmpc-azioni a { display: inline-block; padding: 10px 20px; border-radius: 999px; font-weight: 700; font-size: 15px; text-decoration: none; border: 2px solid #c2410c; color: #c2410c; }
+.fmpc-azioni a.pieno { background: #c2410c; color: #fff; }
+.fmpc-azioni a:hover { background: #9a3412; border-color: #9a3412; color: #fff; }
+@media (max-width: 600px) {
+  .fmpc-hero { flex-direction: column; text-align: center; padding: 22px 18px; }
+  .fmpc-hero img { width: 110px; height: 110px; }
+  .fmpc-titolo { font-size: 27px; }
+  .fmpc-chips, .fmpc-azioni { justify-content: center; }
+}
+</style>
+</head>
+<body>
+<div class="fmpc-hero" id="fmpc-hero">
+  <img src="../img/fabio-muzzi.webp" width="140" height="140" alt="Fabio Muzzi">
+  <div>
+    <p class="fmpc-occhiello">Una guida pratica di Fabio Muzzi</p>
+    <p class="fmpc-titolo">Parental control in famiglia</p>
+    <p class="fmpc-descr">Sono Fabio, papà e professionista del digitale. In questa guida ti accompagno, un passo alla volta, a proteggere la rete di casa, gli smartphone e le SIM dei tuoi figli. Non serve essere esperti.</p>
+    <p class="fmpc-chips"><span>9 moduli</span><span>15-30 minuti l'uno</span><span>Gratuita, senza pubblicità</span></p>
+    <p class="fmpc-azioni"><a class="pieno" href="../prima-delle-impostazioni/" target="_top">Inizia dal modulo 0</a><a href="../#il-percorso" target="_top">Vedi il percorso</a></p>
+  </div>
+</div>
+<script>
+  if (new URLSearchParams(location.search).get('tema') === 'scuro') document.getElementById('fmpc-hero').classList.add('scuro');
+</script>
+</body>
+</html>

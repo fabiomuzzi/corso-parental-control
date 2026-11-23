@@ -98,3 +98,29 @@ code, kbd, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospac
 /* Avanti / Indietro in fondo alla pagina: piu grandi e visibili */
 .md-footer__link { padding-top: 1rem; padding-bottom: 1rem; }
 .md-footer__title { font-family: "Nunito", sans-serif; font-weight: 800; }
+
+/* ---------- Header iniziale (stesso disegno della versione da incorporare) ---------- */
+.md-typeset .fm-hero {
+  display: flex; gap: 1.6rem; align-items: center; background: var(--fm-card); border: 1px solid var(--fm-card-border);
+  border-radius: 24px; padding: 1.8rem; margin: 0 0 1.6rem; box-shadow: 0 6px 24px rgba(15,23,42,.06);
+  background-image: radial-gradient(circle at 100% 0, rgba(234,88,12,.10), transparent 45%);
+}
+.md-typeset .fm-hero__foto { width: 9rem; height: 9rem; border-radius: 50%; object-fit: cover; flex: none; border: 4px solid #fff; box-shadow: 0 0 0 3px #fdba74; }
+.md-typeset .fm-hero__occhiello { margin: 0; font-size: .78em; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: #c2410c; }
+.md-typeset .fm-hero__titolo { margin: .2rem 0 .5rem; font-size: 2.1em; line-height: 1.15; }
+.md-typeset .fm-hero__descr { margin: 0 0 .8rem; font-size: 1.02em; color: var(--fm-muted); }
+.md-typeset .fm-hero__chips { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1rem; }
+.md-typeset .fm-hero__chips span { font-size: .75em; font-weight: 700; background: var(--md-default-bg-color); border-radius: 999px; padding: .25rem .75rem; color: var(--fm-muted); }
+.md-typeset .fm-hero__azioni { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; }
+.md-typeset a.fm-btn {
+  display: inline-block; padding: .65rem 1.2rem; border-radius: 999px; font-weight: 700; text-decoration: none;
+  border: 2px solid #c2410c; color: #c2410c; font-size: .9em;
+}
+.md-typeset a.fm-btn--pieno { background: #c2410c; color: #fff; }
+.md-typeset a.fm-btn:hover { background: #9a3412; border-color: #9a3412; color: #fff; }
+@media (max-width: 44.9375em) {
+  .md-typeset .fm-hero { flex-direction: column; text-align: center; padding: 1.4rem 1.1rem; }
+  .md-typeset .fm-hero__foto { width: 7rem; height: 7rem; }
+  .md-typeset .fm-hero__titolo { font-size: 1.7em; }
+  .md-typeset .fm-hero__chips, .md-typeset .fm-hero__azioni { justify-content: center; }
+}

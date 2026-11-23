@@ -1,8 +1,18 @@
 ---
+title: "Parental control in famiglia: la guida pratica per genitori"
 description: "Come impostare il parental control in casa: filtri DNS sulla rete, smartphone iPhone e Android, SIM e console. Una guida per genitori, un passo alla volta."
 ---
 
-# Parental control in famiglia: la guida pratica, passo per passo
+<header class="fm-hero" markdown="0">
+  <img class="fm-hero__foto" src="img/fabio-muzzi.webp" width="160" height="160" alt="Fabio Muzzi">
+  <div class="fm-hero__testo">
+    <p class="fm-hero__occhiello">Una guida pratica di Fabio Muzzi</p>
+    <h1 class="fm-hero__titolo">Parental control in famiglia</h1>
+    <p class="fm-hero__descr">Sono Fabio, papà e professionista del digitale. In questa guida ti accompagno, un passo alla volta, a proteggere la rete di casa, gli smartphone e le SIM dei tuoi figli. Non serve essere esperti.</p>
+    <p class="fm-hero__chips"><span>9 moduli</span><span>15-30 minuti l'uno</span><span>Gratuita, senza pubblicità</span></p>
+    <p class="fm-hero__azioni"><a class="fm-btn fm-btn--pieno" href="prima-delle-impostazioni/">Inizia dal modulo 0</a><a class="fm-btn" href="#il-percorso">Vedi il percorso</a></p>
+  </div>
+</header>
 
 
 !!! abstract "In breve"
