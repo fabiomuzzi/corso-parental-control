@@ -13,6 +13,7 @@ nav = [
 extra_css = ["stylesheets/extra.css"]
 
 [project.theme]
+custom_dir = "overrides"
 language = "it"
 features = ["navigation.footer","navigation.instant","navigation.path","navigation.top","navigation.tracking","search.highlight","toc.follow","content.tooltips"]
 
