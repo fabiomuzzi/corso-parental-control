@@ -3,7 +3,7 @@ site_name = "Parental control in famiglia"
 site_description = "La guida pratica, passo per passo, per genitori: rete di casa, smartphone, SIM, console."
 site_author = "Fabio Muzzi"
 site_url = "https://fabiomuzzi.github.io/corso-parental-control/"
-copyright = "© 2026 Fabio Muzzi · <a href='https://www.fabiomuzzi.com/'>fabiomuzzi.com</a>"
+copyright = "© 2026 Fabio Muzzi · <a href='https://www.fabiomuzzi.com/'>fabiomuzzi.com</a> · Testi con licenza <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it' rel='license'>CC BY-NC-SA 4.0</a>"
 nav = [
   { "Inizia qui" = "index.md" },
   { "0. Prima delle impostazioni" = "prima-delle-impostazioni.md" },
