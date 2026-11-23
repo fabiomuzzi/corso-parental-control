@@ -42,3 +42,6 @@ pymdownx.details = {}
 pymdownx.superfences = {}
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tasklist.clickable_checkbox = true
+
+[project.extra]
+generator = false
