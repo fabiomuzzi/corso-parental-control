@@ -44,6 +44,26 @@ Se nel [modulo 2](rete-di-casa-filtri-dns.md) hai scoperto che il tuo modem non 
 - Non controlla **app e chat**: per quelle servono Tempo di utilizzo (modulo 3) e Family Link (modulo 4).
 - Non sostituisce il patto del [modulo 0](prima-delle-impostazioni.md).
 
+## Verifica: hai finito il modulo?
+Spunta quello che hai fatto:
+
+- [ ] So a chi è intestata la SIM di mio figlio.
+- [ ] Ho controllato nell'app dell'operatore se il parental control è attivo.
+- [ ] Se non lo era, l'ho attivato (o ho chiamato il servizio clienti).
+- [ ] Ho fatto la prova con il Wi-Fi spento: il sito bloccato non si apre.
+- [ ] Se il modem di casa non permette di cambiare il DNS, ho chiesto il filtro anche per la linea fissa.
+
+Tre domande per controllare di aver capito:
+
+??? question "1. La SIM di mio figlio è intestata a me. Il filtro è già attivo?"
+    Probabilmente **no**. È attivo in automatico sulle SIM dei minori o con offerte per minori. Se la SIM risulta tua, devi chiederlo all'operatore: è gratuito.
+
+??? question "2. Il parental control della SIM funziona anche col Wi-Fi?"
+    No. Lavora sulla rete dell'operatore, quindi solo quando il telefono usa i **dati mobili**. Con il Wi-Fi contano il modem e il telefono ([modulo 2](rete-di-casa-filtri-dns.md)).
+
+??? question "3. Quanto costa?"
+    Niente. La delibera AGCOM 9/23/CONS obbliga gli operatori a offrirlo **gratuitamente**.
+
 ## Fonti
 - AGCOM, delibera n. 9/23/CONS e Allegato A, Linee guida per la protezione dei minori dai rischi del cyberspazio (25 gennaio 2023): agcom.it
 - AGCOM, comunicazione dell'8 novembre 2023 sull'entrata in vigore degli obblighi.

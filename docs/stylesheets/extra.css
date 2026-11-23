@@ -42,3 +42,10 @@
 /* Foto vere: bordo leggero, larghezza contenuta per gli screenshot del telefono */
 .md-typeset figure.schermata img { border-radius: 12px; border: 1px solid #e5e7eb; max-width: 360px; }
 .md-typeset figure.schermata figcaption { font-size: .75rem; color: #6b7280; }
+
+/* Verifica di fine modulo */
+.md-typeset .task-list-item { margin-bottom: .55em; }
+.md-typeset .task-list-control .task-list-indicator::before { background-color: #d1d5db; }
+.md-typeset [type=checkbox]:checked + .task-list-indicator::before { background-color: #16a34a; }
+.md-typeset details.question { border-color: #c2410c; }
+.md-typeset details.question > summary { font-weight: 600; }

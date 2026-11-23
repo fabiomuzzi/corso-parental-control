@@ -125,6 +125,26 @@ Te lo dico con onestà, perché è meglio saperlo adesso che scoprirlo dopo:
 
 Non è un motivo per lasciar perdere: è il motivo per cui il DNS è il primo strato, non l'unico.
 
+## Verifica: hai finito il modulo?
+Spunta quello che hai fatto:
+
+- [ ] Ho scelto un servizio di filtro DNS.
+- [ ] Ho fotografato i valori DNS originali del modem (o ho scoperto che il modem non permette di cambiarli).
+- [ ] Ho impostato il filtro sul modem, oppure sui dispositivi dei figli.
+- [ ] Ho fatto la prova: un sito che doveva essere bloccato non si apre.
+- [ ] Sull'iPhone di mio figlio ho controllato il Relay privato di iCloud.
+
+Tre domande per controllare di aver capito:
+
+??? question "1. Ho messo il filtro sul modem. Mio figlio esce e usa i dati mobili: è protetto?"
+    No. Il filtro sul modem protegge solo chi usa il **Wi-Fi di casa**. Fuori casa servono il filtro sul telefono (passo 3) e il parental control della SIM ([modulo 5](sim-operatore.md)).
+
+??? question "2. Ho cambiato il DNS e internet non va più. Cosa faccio?"
+    Niente panico: rientra nel pannello del modem e riscrivi i valori che avevi fotografato (o cancella i nuovi e lascia le caselle vuote, che di solito vuol dire "automatico"). Poi riavvia il modem. Tutto torna come prima.
+
+??? question "3. Il filtro DNS legge le chat di mio figlio?"
+    No, e non è fatto per questo. Blocca l'accesso ai **siti**, non vede i messaggi. Per le persone che scrivono a tuo figlio conta il patto del [modulo 0](prima-delle-impostazioni.md).
+
 ## Fonti e guide ufficiali
 - Cloudflare, 1.1.1.1 for Families: developers.cloudflare.com/1.1.1.1/setup/#1111-for-families
 - CleanBrowsing, filtri e indirizzi: cleanbrowsing.org/filters

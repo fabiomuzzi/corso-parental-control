@@ -68,6 +68,26 @@ Aggiungi in fondo al patto questi contatti, così sono lì quando servono:
 - Il patto scritto, anche a mano.
 - Una lista di chi in casa usa quale dispositivo: è il punto di partenza del modulo 1.
 
+## Verifica: hai finito il modulo?
+Spunta quello che hai fatto. Non serve fare tutto subito: puoi tornare qui quando vuoi.
+
+- [ ] Ho spiegato a mio figlio che cosa sto per impostare, e perché.
+- [ ] Abbiamo scritto il patto rispondendo alle cinque domande.
+- [ ] In cima al patto c'è la frase "se succede qualcosa, me lo dici, e non ti punisco".
+- [ ] Mio figlio sa riconoscere i tre segnali d'allarme.
+- [ ] I numeri utili sono scritti sul patto.
+
+Tre domande per controllare di aver capito:
+
+??? question "1. Il parental control ferma un adulto che cerca di agganciare mio figlio in una chat?"
+    Quasi mai. I filtri funzionano sui **contenuti** (siti, app, acquisti), non sulle **persone**. Quando la conversazione si sposta in una chat privata, nessun filtro arriva. Per questo serve il dialogo.
+
+??? question "2. Mio figlio mi racconta di aver mandato una foto a uno sconosciuto. Qual è la prima cosa da fare?"
+    Ringraziarlo per avertelo detto e aiutarlo, **non** punirlo. Poi non cancellare niente: fai gli screenshot delle conversazioni (mai delle foto intime, che non vanno salvate né inoltrate) e segnala al Commissariato di P.S. online. Se tuo figlio si sente punito, la volta dopo non ti dirà niente.
+
+??? question "3. Qual è uno dei tre segnali d'allarme?"
+    Uno qualsiasi di questi: chiedere di **spostarsi** su un'altra app; chiedere di **tenere un segreto** (o se i genitori controllano il telefono); fare **regali** senza motivo.
+
 ## Fonti
 - Polizia di Stato, Resoconto attività 2025 della Polizia Postale e per la Sicurezza Cibernetica.
 - Livingstone S., Helsper E. (2008), Parental mediation of children's internet use, Journal of Broadcasting & Electronic Media.
